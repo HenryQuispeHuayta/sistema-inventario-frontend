@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Product, ProductEdit } from "./Product";
 import axios from "@/axios";
-import { set } from "firebase/database";
 
 interface ModalProps {
   isOpen: boolean;
